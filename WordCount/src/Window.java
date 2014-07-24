@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
 public class Window extends JFrame {
@@ -55,17 +54,6 @@ public class Window extends JFrame {
 			
 			int numberOfCharacters  = results.getText().length();
 			chars.setText("Character Count: " + numberOfCharacters);
-			
-			// Profanity checker
-			String[] swearWords = {"fuck", "shit", "asshole", "a-hole", "nigger", "nigga"};
-			for (int i = 0; i < wordsArray.length; i++) {
-				for (int j = 0; j < swearWords.length; j++) {
-					if (wordsArray[i].equalsIgnoreCase(swearWords[j])) {
-						JOptionPane.showMessageDialog(null, "Do not use profanity, please!");
-						results.setText("");
-					}
-				}
-			}
 			
 		}
 		

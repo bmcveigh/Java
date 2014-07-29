@@ -1,21 +1,35 @@
-// Written by Brian McVeigh
+
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
 public class JComboFrame extends JFrame {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
+	
 	private JLabel titleLabel;
+	
 	private JTextField textField;
+	
+	@SuppressWarnings("rawtypes")
 	private JComboBox comboBox;
+	
 	private JButton submitButton;
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public JComboFrame() {
 		
 		setResizable(false);

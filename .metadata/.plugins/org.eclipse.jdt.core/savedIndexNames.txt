@@ -1,7 +1,6 @@
 INDEX VERSION 1.126+C:\Users\brianmcveigh\Documents\Brian\Code\Java\For Github\Java\.metadata\.plugins\org.eclipse.jdt.core
 2617657682.index
 1851534373.index
-3224974857.index
 1440591425.index
 346032148.index
 2995781190.index

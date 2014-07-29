@@ -1,7 +1,10 @@
-// Written by Brian McVeigh
-
 import javax.swing.*;
 
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
 public class JComboJOptionPaneExampleApp {
 	
 	public static void main(String[] args) {
@@ -16,6 +19,8 @@ public class JComboJOptionPaneExampleApp {
 		
 		// Create our text field and combo box objects
 		JTextField textField = new JTextField();
+		
+		@SuppressWarnings({ "rawtypes", "unchecked" })
 		JComboBox comboBox = new JComboBox(comboBoxChoices);
 		comboBox.setSelectedIndex(0);
 		
@@ -32,9 +37,11 @@ public class JComboJOptionPaneExampleApp {
 		int choice = JOptionPane.showConfirmDialog(null, objects, "Select an Option", JOptionPane.OK_CANCEL_OPTION);
 		
 		if (choice == JOptionPane.OK_OPTION) {
-			// Add what you want to happen if the user selects OK
-		}
-		else {
+			String output = "Entered text: " + textField.getText() + "\n";
+			output += "Selected item: " + comboBox.getSelectedItem().toString();
+			
+			JOptionPane.showMessageDialog(null, output);
+		} else {
 			// Add what you want to happen if the user selects Cancel
 		}
 	}

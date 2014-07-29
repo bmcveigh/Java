@@ -91,6 +91,11 @@ public class TA {
 	public void setCoursesAvailable(ArrayList<Course> coursesAvailable) {
 		this.coursesAvailable = coursesAvailable;
 	}
+
+	@Override
+	public String toString() {
+		return firstName + " " + lastName;
+	}
 	
 	
 	

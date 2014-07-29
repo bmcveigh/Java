@@ -92,7 +92,9 @@ public class App {
 			output += "\n--------------------------\n";
 		}
 		JOptionPane.showMessageDialog(null, output);
+		
 		assignTAs();
+		JOptionPane.showMessageDialog(null, displayAssignedTAForCourse());
 	}
 	
 	public void assignTAs() {
@@ -134,6 +136,15 @@ public class App {
 			courses.get(choice-1).setTa(assistants.get(option-1));
 			numCoursesNeedAssigned--;
 		} while (numCoursesNeedAssigned > 0);
+	}
+	
+	public String displayAssignedTAForCourse() {
+		String output = "";
+		for (int i = 0; i < courses.size(); i++) {
+			output += (i+1) + ". " + courses.get(i).getName() + " " + courses.get(i).getDescription() + "\n";
+			output += "Assigned TA: " + courses.get(i).getTa().toString() + "\n--------------\n"; 
+		}
+		return output;
 	}
 
 }

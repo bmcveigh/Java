@@ -8,9 +8,10 @@ import javax.swing.JOptionPane;
 
 public class Dealer
 {
+	public static final int NUMBER_OF_CARS = 25;
 	public static void main(String[] args)
 	{
-		Car[] m_cars = new Car[25];
+		Car[] m_cars = new Car[NUMBER_OF_CARS];
 		int m_numCars = 0;
 		
 		for (;;)

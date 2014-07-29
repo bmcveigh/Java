@@ -1,8 +1,4 @@
-/**
- * @author BrianMcVeigh
- *
- */
-// staticvoidgames.com/tutorials/swing/SwingTimers.jsp
+
 import java.awt.FlowLayout;
 	
 import javax.swing.JButton;

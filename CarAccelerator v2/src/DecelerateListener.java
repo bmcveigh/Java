@@ -1,9 +1,4 @@
-/**
- * 
- * @author BrianMcVeigh
- *
- */
-// staticvoidgames.com/tutorials/swing/SwingTimers.jsp
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

@@ -15,7 +15,7 @@ public class Main {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLayout(new FlowLayout());
 		
-		JButton button = new JButton("Click me!");
+		JButton button = new JButton("Accelerate");
 		frame.add(button);
 		
 		JButton button2 = new JButton("Decelerate");

@@ -14,8 +14,13 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 /**
- * @author BrianMcVeigh
+ * 
+ * @project SuperVendingMachine v4
  *
+ * @file Administrator.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:40:09 PM
  */
 public class Administrator  extends JFrame {
 	

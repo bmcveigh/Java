@@ -9,9 +9,10 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
 /**
- * 
+ * Window.java
  * @author BrianMcVeigh
- *
+ * @date Jul 29, 2014
+ * @time 1:36:52 PM
  */
 public class Window extends JFrame {
 	private static final long serialVersionUID = 1L;

@@ -5,11 +5,6 @@
  * George Mason University
  * December 8, 2012
  */
-/**
- *
- * @author brianmcveigh
- */
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -23,6 +18,13 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+/**
+ * @project SuperVendingMachine v4
+ * @file VendingMachineApp.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:42:31 PM
+ */
 public class VendingMachineApp extends javax.swing.JFrame {
 	
 	private static final long serialVersionUID = 1L;

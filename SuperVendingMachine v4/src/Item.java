@@ -9,8 +9,11 @@ import java.text.NumberFormat;
  */
 
 /**
- *
- * @author brianmcveigh
+ * @project SuperVendingMachine v4
+ * @file Item.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:40:38 PM
  */
 public abstract class Item
 {

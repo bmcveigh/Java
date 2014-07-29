@@ -1,8 +1,12 @@
 
 
 /**
- *
- * @author brianmcveigh
+ * 
+ * @project SuperVendingMachine v4
+ * @file MasonMoney.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:44:08 PM
  */
 public class MasonMoney
 {

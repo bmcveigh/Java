@@ -1,8 +1,13 @@
 
 
 /**
+ * 
+ * @project SuperVendingMachine v4
  *
- * @author brianmcveigh
+ * @file Coke.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:40:26 PM
  */
 public class Coke extends Item
 {

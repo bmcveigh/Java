@@ -1,6 +1,12 @@
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-
+/**
+ * @project SuperVendingMachine v4
+ * @file Transaction.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:41:24 PM
+ */
 public class Transaction {
 	private String itemName;
 	private double itemPrice;

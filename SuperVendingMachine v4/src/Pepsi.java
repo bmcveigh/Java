@@ -1,8 +1,12 @@
 
 
 /**
- *
- * @author brianmcveigh
+ * 
+ * @project SuperVendingMachine v4
+ * @file Pepsi.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:44:21 PM
  */
 public class Pepsi extends Item
 {

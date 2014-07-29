@@ -1,8 +1,3 @@
-
-/**
- * Created by Brian McVeigh on 6.25.2014
- */
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -23,6 +18,13 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+/**
+ * @project SuperVendingMachine v4
+ * @file VendingMachine.java
+ * @author BrianMcVeigh
+ * @date Jul 29, 2014
+ * @time 1:41:58 PM
+ */
 public class VendingMachine extends JFrame {
 
 	private static final long serialVersionUID = 1L;

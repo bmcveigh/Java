@@ -33,11 +33,11 @@ public class Administrator  extends JFrame {
 	
 	// composition
 	private ArrayList<Item> items; // the items stored in vending machine
-	private ArrayList<MasonMoney> accounts; // mason money accounts stored as Array List
-	private ArrayList<Transaction> transactions; // transactions stored as Array List
-	private static int numberOfTransactions; // total number of transactions
-	private double sales; // total sales amount
-	private static VendingMachine selectedVendingMachine;
+    private ArrayList<MasonMoney> accounts; // mason money accounts stored as Array List
+    private ArrayList<Transaction> transactions; // transactions stored as Array List
+    private static int numberOfTransactions; // total number of transactions
+    private double sales; // total sales amount
+    private static VendingMachine selectedVendingMachine;
 		
 	public Administrator() {
 		super();

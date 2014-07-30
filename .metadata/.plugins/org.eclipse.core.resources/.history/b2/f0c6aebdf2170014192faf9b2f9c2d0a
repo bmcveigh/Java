@@ -1,0 +1,34 @@
+import java.sql.*;
+public class AdminDB{
+	 private Connection getConnection() {
+        Connection connection = null;
+        try {
+     	   DriverManager.getConnection("jdbc:mysql://localhost/reception?" +
+                    "user='root'&");
+ 		   return connection;
+         }
+         catch(Exception e) {
+             System.err.println(e);
+             e.printStackTrace();
+ 			return connection;
+         }
+    }
+	 public boolean checkadmin(String user, String pw) {
+        String sql1 = "SELECT A_NAME FROM ADMIN WHERE A_NAME = '"+user+"' AND A_PASS = '"+pw+"'";         
+        boolean found = false;
+		  try (Connection connection = getConnection();
+             PreparedStatement ps1 = connection.prepareStatement(sql1);
+             ResultSet rs1 = ps1.executeQuery()) {
+				while(rs1.next()) { 
+					found = true;
+				}
+				connection.close();
+				return found;
+        	}
+        catch(SQLException e) {
+            System.err.println(e);
+            return found;
+        }
+    }
+
+}

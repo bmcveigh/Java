@@ -20,7 +20,7 @@ public class ReceptionApp {
 		// TODO Auto-generated method stub
 		int passwordCount = 0;
 		boolean done = false;
-		int result = JOptionPane.showConfirmDialog(null, "Hello and welcome to Reception, are you an administrator?", "Reception", JOptionPane.YES_NO_CANCEL_OPTION);
+		int result = JOptionPane.showConfirmDialog(null, "Welcome to Reception, are you an administrator?", "Reception", JOptionPane.YES_NO_OPTION);
 
 		do {
 			if (result == JOptionPane.YES_OPTION){
@@ -56,14 +56,12 @@ public class ReceptionApp {
 					passwordCount++;
 				}
 			}
-			else if (result == JOptionPane.NO_OPTION)
+			else
 			{
 				custFrame = new UICustomerViewFrame();
 				custFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				custFrame.setVisible(true);
 				break;
-			} else {
-				System.exit(0);
 			}
 		} while (!done);
 

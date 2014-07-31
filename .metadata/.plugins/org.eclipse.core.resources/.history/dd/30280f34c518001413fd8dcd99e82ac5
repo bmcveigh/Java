@@ -1,0 +1,23 @@
+package landAnimals;
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
+public class LandAnimal extends LandAnimal {
+	public LandAnimal() {
+		super();
+	}
+	
+	public String speak() {
+		return super.speak();
+	}
+	
+	public String breathingMethod() {
+		return "Mouth";
+	}
+	
+	public String toString() {
+		return super.toString();
+	}
+}

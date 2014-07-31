@@ -1,0 +1,21 @@
+import waterAnimals.Blowfish;
+import landAnimals.Dog;
+import animals.Animal;
+
+/**
+ * @author BrianMcVeigh
+ *
+ */
+public class PolymorphismInAction {
+	
+	public static void main(String[] args) {
+		
+		Animal[] animals = new Animal[3];
+		
+		// Create a Land animal
+		Dog dog = new Dog();
+		
+		Blowfish blowfish = new Blowfish();
+		
+	}
+}

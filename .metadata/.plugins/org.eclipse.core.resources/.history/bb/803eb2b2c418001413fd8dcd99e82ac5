@@ -1,0 +1,8 @@
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
+public class LandAnimal extends Animal {
+
+}

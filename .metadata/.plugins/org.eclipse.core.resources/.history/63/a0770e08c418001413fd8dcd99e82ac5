@@ -1,0 +1,13 @@
+/**
+ * @author BrianMcVeigh
+ *
+ */
+public abstract class Animal {
+	public Animal() {
+		
+	}
+	
+	public String speak() {
+		return toString();
+	}
+}

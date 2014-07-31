@@ -1,0 +1,26 @@
+package waterAnimals;
+import animals.LandAnimal;
+
+
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
+public class Blowfish extends LandAnimal {
+	public Blowfish() {
+		super();
+	}
+	
+	public String speak() {
+		return super.speak();
+	}
+	
+	public String breathingMethod() {
+		return "Mouth";
+	}
+	
+	public String toString() {
+		return super.toString();
+	}
+}

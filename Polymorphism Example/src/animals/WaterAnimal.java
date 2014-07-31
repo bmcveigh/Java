@@ -1,0 +1,24 @@
+package animals;
+
+/**
+ * 
+ * @author BrianMcVeigh
+ *
+ */
+public class WaterAnimal extends Animal {
+	public WaterAnimal() {
+		super();
+	}
+	
+	public String speak() {
+		return super.speak();
+	}
+	
+	public String breathingMethod() {
+		return "Gills";
+	}
+	
+	public String toString() {
+		return super.toString();
+	}
+}

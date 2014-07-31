@@ -14,23 +14,6 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

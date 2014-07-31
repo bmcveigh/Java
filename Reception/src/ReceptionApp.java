@@ -12,8 +12,8 @@ import javax.swing.JPasswordField;
  */
 public class ReceptionApp {
 
-private static UICustomerViewFrame custFrame;
-private static UIAdministrativeFrame frame;
+	private static UICustomerViewFrame custFrame;
+	private static UIAdministrativeFrame frame;
 
 	public static void main(String[] args) 
 	{
@@ -21,33 +21,33 @@ private static UIAdministrativeFrame frame;
 		int passwordCount = 0;
 		boolean done = false;
 		int result = JOptionPane.showConfirmDialog(null, "Hello, are you an administrator", "Reception", JOptionPane.YES_NO_OPTION);
-		
+
 		do {
 			if (result == JOptionPane.YES_OPTION){
 				if (passwordCount > 3){
 					JOptionPane.showMessageDialog(null, "Number of Attempts Exceeded!", "Reception", JOptionPane.ERROR_MESSAGE);
 					return;
-					}
+				}
 				String user = JOptionPane.showInputDialog(null, "Admin name","Enter Admin Name",JOptionPane.INFORMATION_MESSAGE);
 				if(user == null || user.equals("")){
 					System.exit(0);
-					}
-					
+				}
+
 				JPasswordField pf = new JPasswordField();
 				int pw = JOptionPane.showConfirmDialog(null, pf, "Enter your password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 				if(pw == JOptionPane.CANCEL_OPTION){
 					System.exit(0);
-					}	
+				}	
 				String enteredPassword = new String(pf.getPassword());
 				AdminDB admin = new AdminDB();
-				
+
 				if (admin.checkadmin(user,enteredPassword))
 				{
 					frame = new UIAdministrativeFrame();
 					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			        frame.setVisible(true);
-			        break;
-	
+					frame.setVisible(true);
+					break;
+
 				}
 				else
 				{
@@ -60,11 +60,11 @@ private static UIAdministrativeFrame frame;
 			{
 				custFrame = new UICustomerViewFrame();
 				custFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		        custFrame.setVisible(true);
-		        break;
+				custFrame.setVisible(true);
+				break;
 			}
 		} while (!done);
-		
+
 	}
 
 }

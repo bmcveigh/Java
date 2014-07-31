@@ -6,7 +6,7 @@ public class Guest{
 	private String g_city;
 	private String g_state;
 	private String g_zip;
-	
+
 	Guest(){
 		this.g_id = 0;
 		this.g_first = "";
@@ -15,7 +15,7 @@ public class Guest{
 		this.g_city = "";
 		this.g_state = "";
 		this.g_zip = "";
-		}
+	}
 	Guest(int newid, String newfirst, String newlast, String newaddress, String newcity, String newstate, String newzip){
 		this.g_id = newid;
 		this.g_first = newfirst;
@@ -24,7 +24,7 @@ public class Guest{
 		this.g_city = newcity;
 		this.g_state = newstate;
 		this.g_zip = newzip;
-		}
+	}
 	public int getid(){return this.g_id;}
 	public String getfirst(){return this.g_first;}
 	public String getlast(){return this.g_last;}

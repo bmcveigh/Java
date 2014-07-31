@@ -136,11 +136,11 @@ public class UIAdministrativeFrame extends JFrame
 
 		//center
 		centerPanel = new JPanel();
-		centerPanel.setBackground(Color.ORANGE);
+		centerPanel.setBackground(Color.GREEN);
 		centerPanel.setLayout(new GridLayout(1, 2));		
 		//left
 		reservationsPanel = new JPanel();
-		reservationsPanel.setBackground(Color.ORANGE);
+		reservationsPanel.setBackground(Color.GREEN);
 		reservationsPanel.setLayout(new GridLayout(10, 2));
 		reservationsPanel.setBorder(new TitledBorder(new EtchedBorder(), "Customer Information"));
 

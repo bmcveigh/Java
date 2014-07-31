@@ -1,0 +1,28 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class LoginWindow {
+	private JFrame frame;
+
+	private String enteredUsername;
+	private String enteredPassword;
+	
+	private JTextField usernameField;
+	private JPasswordField passwordField;
+	
+	private JButton registerButton;
+	private JButton loginButton;
+	
+	public LoginWindow() {
+
+	}
+	
+	public void launchWindow() {
+		
+	}
+	
+	
+}

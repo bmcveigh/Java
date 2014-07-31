@@ -1,0 +1,83 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class LoginWindow {
+	private JFrame frame;
+
+	private String enteredUsername;
+	private String enteredPassword;
+	
+	private JTextField usernameField;
+	private JPasswordField passwordField;
+	
+	private JButton registerButton;
+	private JButton loginButton;
+	
+	public LoginWindow() {
+
+	}
+	
+	public void launchWindow() {
+		int numTriesLeft = 3;
+		boolean done = false;
+
+		do {
+			if (numTriesLeft > 3){
+				JOptionPane.showMessageDialog(null, "Number of Attempts Exceeded!", "Reception", JOptionPane.ERROR_MESSAGE);
+				return;
+			}
+
+			// Create and initialize the text fields for the user login box
+			usernameField = new JTextField();
+			passwordField = new JPasswordField();
+			registerButton = new JButton("Register");
+			loginButton = new JButton("Login");
+
+			/* This array of Object objects stores both a labels (as strings) and text fields
+			 * that will go into the dialog box */
+			Object[] message = {
+					"Username:", usernameField,
+					"Password:", passwordField,
+					registerButton, loginButton
+			};
+
+			// dialog box that will include the registration form
+			JOptionPane.showConfirmDialog(null, message, "Select an Option", JOptionPane.NO_OPTION);
+
+			if(enteredUsername == null || enteredPassword == null){
+				System.exit(0);
+			}
+
+			enteredPassword = new String(passwordField.getPassword());
+
+			UserDB admin = new UserDB();
+
+			if (admin.checkUser(enteredUsername,enteredPassword))
+			{
+				if (admin.isAdmin()) {
+					frame = new UIAdministrativeFrame();
+					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+					frame.setVisible(true);
+				} else {
+					frame = new UICustomerViewFrame();
+					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+					frame.setVisible(true);
+				}
+				break;
+			}
+			else
+			{
+				JOptionPane.showMessageDialog(null, "Incorrect password!!!", "Reception", JOptionPane.ERROR_MESSAGE);
+				System.out.println(passwordField.getPassword());
+				numTriesLeft--;
+			}
+		} while (!done);
+
+	}
+	
+	
+}

@@ -19,17 +19,17 @@ public class GuestDB {
 		ArrayList<Guest> guests = new ArrayList<>();
 
 		try (Connection connection = getConnection();
-				PreparedStatement ps1 = connection.prepareStatement(sql1);
-				ResultSet rs1 = ps1.executeQuery()) {
+				PreparedStatement ps = connection.prepareStatement(sql1);
+				ResultSet rs = ps.executeQuery()) {
 			
-			while(rs1.next()) {
-				int id = rs1.getInt("G_ID");
-				String first = rs1.getString("G_FIRST");
-				String second = rs1.getString("G_LAST");
-				String address = rs1.getString("G_ADDRESS");
-				String city = rs1.getString("G_CITY");
-				String state = rs1.getString("G_STATE");
-				String zip = rs1.getString("G_ZIP");
+			while(rs.next()) {
+				int id = rs.getInt("G_ID");
+				String first = rs.getString("G_FIRST");
+				String second = rs.getString("G_LAST");
+				String address = rs.getString("G_ADDRESS");
+				String city = rs.getString("G_CITY");
+				String state = rs.getString("G_STATE");
+				String zip = rs.getString("G_ZIP");
 
 				Guest guest = new Guest(id, first, second, address, city, state, zip);
 				guests.add(guest);
@@ -48,9 +48,9 @@ public class GuestDB {
 		String sql1 = "SELECT G_ID, G_FIRST,G_LAST,G_ADDRESS,G_CITY,G_STATE,G_ZIP FROM GUEST WHERE G_FIRST = '"+guest.getfirst()+"' AND G_LAST = '"+guest.getlast()+"'";         
 		boolean found = false;
 		try (Connection connection = getConnection();
-				PreparedStatement ps1 = connection.prepareStatement(sql1);
-				ResultSet rs1 = ps1.executeQuery()) {
-			while(rs1.next()) { 
+				PreparedStatement ps = connection.prepareStatement(sql1);
+				ResultSet rs = ps.executeQuery()) {
+			while(rs.next()) { 
 				found = true;
 			}
 			connection.close();
@@ -67,16 +67,16 @@ public class GuestDB {
 		Guest guest = new Guest();
 
 		try (Connection connection = getConnection();
-				PreparedStatement ps1 = connection.prepareStatement(sql1);
-				ResultSet rs1 = ps1.executeQuery()) {
-			if (rs1.next()) { 
-				int id = rs1.getInt("G_ID");
-				String first = rs1.getString("G_FIRST");
-				String second = rs1.getString("G_LAST");
-				String address = rs1.getString("G_ADDRESS");
-				String city = rs1.getString("G_CITY");
-				String state = rs1.getString("G_STATE");
-				String zip = rs1.getString("G_ZIP");
+				PreparedStatement ps = connection.prepareStatement(sql1);
+				ResultSet rs = ps.executeQuery()) {
+			if (rs.next()) { 
+				int id = rs.getInt("G_ID");
+				String first = rs.getString("G_FIRST");
+				String second = rs.getString("G_LAST");
+				String address = rs.getString("G_ADDRESS");
+				String city = rs.getString("G_CITY");
+				String state = rs.getString("G_STATE");
+				String zip = rs.getString("G_ZIP");
 
 				guest = new Guest(id, first, second, address, city, state, zip);
 
@@ -84,7 +84,7 @@ public class GuestDB {
 				return guest;
 			}
 			else{
-				rs1.close();
+				rs.close();
 				connection.close();
 				return null;
 			}
@@ -102,16 +102,16 @@ public class GuestDB {
 		Guest guest = new Guest();
 
 		try (Connection connection = getConnection();
-				PreparedStatement ps1 = connection.prepareStatement(sql1);
-				ResultSet rs1 = ps1.executeQuery()) {
-			if (rs1.next()) { 
-				int id = rs1.getInt("G_ID");
-				String first = rs1.getString("G_FIRST");
-				String second = rs1.getString("G_LAST");
-				String address = rs1.getString("G_ADDRESS");
-				String city = rs1.getString("G_CITY");
-				String state = rs1.getString("G_STATE");
-				String zip = rs1.getString("G_ZIP");
+				PreparedStatement ps = connection.prepareStatement(sql1);
+				ResultSet rs = ps.executeQuery()) {
+			if (rs.next()) { 
+				int id = rs.getInt("G_ID");
+				String first = rs.getString("G_FIRST");
+				String second = rs.getString("G_LAST");
+				String address = rs.getString("G_ADDRESS");
+				String city = rs.getString("G_CITY");
+				String state = rs.getString("G_STATE");
+				String zip = rs.getString("G_ZIP");
 
 				guest = new Guest(id, first, second, address, city, state, zip);
 
@@ -119,7 +119,7 @@ public class GuestDB {
 				return guest;
 			}
 			else{
-				rs1.close();
+				rs.close();
 				connection.close();
 				return null;
 			}
@@ -135,16 +135,16 @@ public class GuestDB {
 		int current = 0;
 
 		try (Connection connection = getConnection();
-				PreparedStatement ps1 = connection.prepareStatement(sql1);
-				ResultSet rs1 = ps1.executeQuery()) {
-			if (rs1.next()) { 
-				current = rs1.getInt("MAX(G_ID)");
+				PreparedStatement ps = connection.prepareStatement(sql1);
+				ResultSet rs = ps.executeQuery()) {
+			if (rs.next()) { 
+				current = rs.getInt("MAX(G_ID)");
 
 				connection.close();
 				return current+1;
 			}
 			else{
-				rs1.close();
+				rs.close();
 				connection.close();
 				return 0;
 			}

@@ -1,0 +1,96 @@
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+/**
+ * 
+ * @project Le Hotel
+ * @file ReceptionApp.java
+ * @author BrianMcVeigh
+ * @date Jul 30, 2014
+ * @time 10:07:52 AM
+ */
+public class ReceptionApp {
+
+	private static UICustomerViewFrame custFrame;
+	private static UIAdministrativeFrame frame;
+	
+	private static String enteredUsername;
+	private static String enteredPassword;
+	private static JTextField usernameField;
+	private static JPasswordField passwordField;
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int passwordCount = 0;
+		boolean done = false;
+		int result = JOptionPane.showConfirmDialog(null, "Hello and welcome to Reception, are you an administrator?", "Reception", JOptionPane.YES_NO_CANCEL_OPTION);
+
+		do {
+			if (result == JOptionPane.YES_OPTION){
+				if (passwordCount > 3){
+					JOptionPane.showMessageDialog(null, "Number of Attempts Exceeded!", "Reception", JOptionPane.ERROR_MESSAGE);
+					return;
+				}
+				
+				displayLoginScreen();
+				
+				if(enteredUsername == null || enteredPassword == null){
+					System.exit(0);
+				}
+
+				JPasswordField pf = new JPasswordField();
+				int pw = JOptionPane.showConfirmDialog(null, pf, "Enter your password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+				if(pw == JOptionPane.CANCEL_OPTION){
+					System.exit(0);
+				}	
+				enteredPassword = new String(passwordField.getPassword());
+				AdminDB admin = new AdminDB();
+
+				if (admin.checkadmin(enteredUsername,enteredPassword))
+				{
+					frame = new UIAdministrativeFrame();
+					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+					frame.setVisible(true);
+					break;
+
+				}
+				else
+				{
+					JOptionPane.showMessageDialog(null, "Incorrect password!!!", "Reception", JOptionPane.ERROR_MESSAGE);
+					System.out.println(pf.getPassword());
+					passwordCount++;
+				}
+			}
+			else if (result == JOptionPane.NO_OPTION)
+			{
+				custFrame = new UICustomerViewFrame();
+				custFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				custFrame.setVisible(true);
+				break;
+			} else {
+				System.exit(0);
+			}
+		} while (!done);
+
+	}
+
+	public static void displayLoginScreen() {
+		// Create and initialize the text fields for the user login box
+		usernameField = new JTextField();
+		passwordField = new JPasswordField();
+
+		/* This array of Object objects stores both a labels (as strings) and text fields
+		 * that will go into the dialog box */
+		Object[] message = {
+				"Username:", usernameField,
+				"Password:", passwordField
+		};
+
+		// dialog box that will include the registration form
+		JOptionPane.showConfirmDialog(null, message, "Select an Option", JOptionPane.OK_CANCEL_OPTION);
+	}
+
+}

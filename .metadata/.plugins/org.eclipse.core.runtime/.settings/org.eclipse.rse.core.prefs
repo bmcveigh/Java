@@ -1,4 +1,4 @@
-activeuserprofiles=PENGO;Team;bbs-imac
+activeuserprofiles=PENGO;Team
 eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=bb
-useridperkey=bbs-imac.Local\=bb;
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=BrianMcVeigh
+useridperkey=PENGO.Local\=BrianMcVeigh;

@@ -2,23 +2,27 @@
 	Brian McVeigh
 	Program 4
 	03.11.11
-*/
-
+ */
 
 public class RugbyTeam {
 	public static final int MAX = 20;
-	private String teamName;
-	private int num;
-	private String [] players;
-	private double [] gpa;
 	
-/*
-	Method: toString
-	Purpose: outputs the team name and the roster
-	Return value: String
-	Parameters: none
+	private int num;
+	
+	private String contact;
+	private String teamName;
+	
+	private String [] players;
+	
+	private double [] gpa;
 
-*/
+	/*
+		Method: toString
+		Purpose: outputs the team name and the roster
+		Return value: String
+		Parameters: none
+
+	 */
 	public String toString () 
 	{
 		String output = "Team:  " + teamName + "\n Roster:\n";
@@ -30,45 +34,44 @@ public class RugbyTeam {
 		return output;
 	}
 
-/*
-	Method: rugbyTeam
-	Purpose: constructs the rugby team class
-	Return value: none
-	Parameters: none
-
-*/	
+	/*
+		Method: rugbyTeam
+		Purpose: constructs the rugby team class
+		Return value: none
+		Parameters: none
+	 */	
 	RugbyTeam ()
 	{
 		players = new String [MAX];
 		gpa = new double [MAX];
 		num = 0;
 		players = new String[20];
-	
-	}
-	
-/*
-	Method: setTeamName
-	Purpose: sets the name of each team
-	Return value: boolean
-	Parameters: String n
 
-*/
+	}
+
+	/*
+		Method: setTeamName
+		Purpose: sets the name of each team
+		Return value: boolean
+		Parameters: String n
+
+	 */
 	public boolean setTeamName(String n)
 	{
-	
+
 		n = n.toLowerCase();
 		if (n.indexOf("rugby") < 0) return false;
 		teamName = n;
 		return true;
 	}
-	
-/*
-	Method: setAPlayer
-	Purpose: returns false if the GPA is less than 2.0 or there have been more than 20 teams entered.
-	Otherwise, it sets the the player name and GPA.
-	Return value: boolean
-	Parameters: String n, double g
-*/
+
+	/*
+		Method: setAPlayer
+		Purpose: returns false if the GPA is less than 2.0 or there have been more than 20 teams entered.
+		Otherwise, it sets the the player name and GPA.
+		Return value: boolean
+		Parameters: String n, double g
+	 */
 
 	public boolean setAPlayer (String n, double g)
 	{
@@ -77,29 +80,28 @@ public class RugbyTeam {
 		gpa[num++]=g;
 		return true;
 	}
-	
-/*
-	Method: setContact
-	Purpose: validates that the email address has a .edu extention at the end.  If it does, it sets the email address.
-	Return value: String
-	Parameters: none
 
-*/
-	
+	/*
+		Method: setContact
+		Purpose: validates that the email address has a .edu extention at the end.  If it does, it sets the email address.
+		Return value: String
+		Parameters: none
+
+	 */
+
 	public boolean setContact (String e)
 	{
 		if (!e.substring(e.lastIndexOf('.')+1).equalsIgnoreCase("edu")) return false;
 		contact = e;
 		return true;
 	}
-	
-/*
-	Method: getTeamAverageGPA
-	Purpose: gets the average GPA for all the teams
-	Return value: double
-	Parameters: none
 
-*/
+	/*
+		Method: getTeamAverageGPA
+		Purpose: gets the average GPA for all the teams
+		Return value: double
+		Parameters: none
+	 */
 
 	public double getTeamAverageGPA()
 	{
@@ -110,14 +112,13 @@ public class RugbyTeam {
 		}
 		return totalGPA / num;
 	}
-	
-/*
-	Method: getPlayerHighestGPA
-	Purpose: finds the player with the highest GPA
-	Return value: double
-	Parameters: none
 
-*/
+	/*
+		Method: getPlayerHighestGPA
+		Purpose: finds the player with the highest GPA
+		Return value: double
+		Parameters: none
+	 */
 
 	public double getPlayerHighestGPA()
 	{
@@ -128,23 +129,22 @@ public class RugbyTeam {
 			{
 				highestGPA = gpa[i];
 			}
-			
+
 		}
 		return highestGPA;
 	}
-	
-/*
-	Method: getPlayerHighestGPAName
-	Purpose: finds the name of the player with the highest GPA
-	Return value: String
-	Parameters: none
 
-*/
+	/*
+		Method: getPlayerHighestGPAName
+		Purpose: finds the name of the player with the highest GPA
+		Return value: String
+		Parameters: none
+	 */
 	public String getPlayerHighestGPAName()
 	{
 		double highestGPA = 0;
 		String name = null;
-		
+
 		for (int i = 0; i < num; i++)
 		{
 			if (highestGPA < gpa[i])
@@ -152,24 +152,35 @@ public class RugbyTeam {
 				highestGPA = gpa[i];
 				name = players[i];
 			}
-			
+
 		}
 		return name;
 	}
-	
-/*
-	Method: getTeamName
-	Purpose: returns the name of a team
-	Return value: String
-	Parameters: none
 
-*/
+	/*
+		Method: getTeamName
+		Purpose: returns the name of a team
+		Return value: String
+		Parameters: none
+	 */
 
+	/**
+	 * @return teamName
+	 */
 	public String getTeamName()
 	{
 		return teamName;
 	}
-	
+
+
+	/**
+	 * @return contact
+	 */
+	public String getContact() {
+		return contact;
+	}
+
+
+
 }
-			
-	
+

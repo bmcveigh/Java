@@ -31,7 +31,6 @@ public class Main {
 		// Every time the timer fires, it will display a dialog box informing the user to take their break.
 		timer.schedule(new TimerTask() {
 			
-			@Override
 			public void run() {
 				System.out.println("due");
 				JOptionPane.showMessageDialog(null, "BREAK TIME :-)");

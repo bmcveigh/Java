@@ -1,0 +1,506 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   .metadata/.log
+#	deleted:    .metadata/.mylyn/.taskListIndex/segments.gen
+#	deleted:    .metadata/.mylyn/.taskListIndex/segments_1
+#	deleted:    .metadata/.mylyn/.tasks.xml.zip
+#	modified:   .metadata/.mylyn/repositories.xml.zip
+#	deleted:    .metadata/.mylyn/tasks.xml.zip
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/0/a188367042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/0/b06fb9d9441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/11/20a547dfed170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/11/d0e6257042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/12/e0ba1e7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/14/f0077d6447170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/15/80e48619f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/16/00b662f3f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/16/809a73cfef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/16/e0789a22f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/18/706e918837170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/18/d06c62cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/18/d0cd3dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1b/70f6164d411300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1b/b005e00ae9170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1c/8074d7e4f1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1d/b0f238f347170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1d/b10094fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1e/8013a7fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1e/c05f813950170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1f/5026bafbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1f/715da9fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/1f/a0598e7a41170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/20/10190e7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/20/30a3047042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/20/703f5011ec170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/20/f06e0026f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/21/90723263411300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/21/a0fac371eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/21/b13e347042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/21/d07366c844170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/22/40657c8542170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/23/60e12f4beb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/24/c0a687cc42170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/27/10e47dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/2c/700eb68142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/2c/8113a7fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/2e/c0122d7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/2e/d0d67acd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/2e/e07a1497ec170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3/b09f8bcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3/d057287042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/32/908992f0f1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/32/f0701c7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/33/71ceabfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/33/a06765fa36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/34/607c6d2eee170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/35/005094e740170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/35/605c4fca441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/37/103db81beb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/38/902db6b5f1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3b/5055c37547170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3d/10d9798637170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3e/4083eabc47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3f/b08f91fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/3f/b1cd317042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4/30b47211ef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4/50b5b7fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/40/c09df0bc47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/41/10a80b7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/41/20caa66d4f170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/41/6030edfb47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/45/a1bb98fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/48/30473ccd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/48/91b43d7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/48/e01f65e9441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/49/10dd0a37f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4a/f0ff197042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4c/3064560c48170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4c/4056680748170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4c/b0964ecd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4d/d0b91505ef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4e/40cff3ef46170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/4f/f0137adcf2170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5/905f5fcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/50/202117e141170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/50/500664cded170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/51/f08e177042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/53/303f9b8847170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/53/617c6d2eee170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/53/e070419440170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/54/0145157042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/56/90e79ffbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/56/b03574f341170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/59/10dad9c0f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5b/2006bbfe36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5c/c1122d7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5c/e02cb7e3f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5e/205e097042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/5e/305079cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6/80aae730f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/61/50525ccd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/63/208e460248170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/63/5126bafbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/63/80a2a4fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/63/c0086ee8f1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/63/c0c5205340170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/65/90efcbb137170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/67/30907daa47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/67/605f598eec170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/69/3091838542170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6a/60bf0bca44170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6b/30e7fa3547170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6b/90433b7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6b/d00b87cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/6d/50d5b303ee170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/72/d03dd80742170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/72/f0bd154d411300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/73/302d3d3047170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/74/307c48cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/76/70543fcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/77/20aff5a146170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/78/2043681e41170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/78/51b5b7fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/78/808338de47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/79/c0f8ba10f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/7e/80a868f0f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/7f/2091b5c5f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8/4001d050eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8/90e9e04841170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/81/604d7f1048170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/81/f06e45cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/82/40100561ec170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/85/a0bb98fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/86/b00094fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/87/108a107042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/88/308585cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/88/30ed2fc0ea170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/88/40060131f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/89/70ceabfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8b/00cc1bc942170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8b/91e79ffbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8c/c0e98c4040170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8d/00e26f5646170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/8d/902f9e59eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9/703faefbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9/70ffda0850170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/90/a0dd0ab042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/92/6189b0fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/93/600b6b2eee170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/94/c0422744e9170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/95/8079ebd8f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/95/90b43d7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/96/2017efbc47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/96/710eb68142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/99/80f7c332e9170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9a/4070bcfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9b/118a107042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9c/0023624cef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9c/605a10fb46170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9c/d0c27d6e47170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9d/30e0ba5ff0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9d/60c09a1a41170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/9f/b0fd549637170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a/c071ae8542170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a0/4081eb9af1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a0/c0458ffbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a0/c0a12a7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a1/70f363cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a2/902a53cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a3/10198acd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a4/5144b5fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a4/b0cd317042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a4/b18f91fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a5/305f18ba41170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/a5/705da9fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ac/00b32966f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ad/00068de246170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ad/50268dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ad/d089815040170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b0/207e3a9ff3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b1/4170bcfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b2/f0c6aebdf2170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b3/713faefbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b3/9025407042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b4/a02c9bfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b6/91433b7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b7/2019ff07441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b8/008d2173441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b8/704bd7ebf1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b9/5017f4b8ed170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b9/60fab2fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/b9/b07196fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ba/b03e347042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/bc/c1d48cfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/be/20c509b5ea170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/c0/a088367042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/c2/e0af9a6144170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/c4/e0965b2cef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/c6/40df0fb7f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/c6/60d0517a42170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/cc/60ff6e51f6170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ce/900075c541170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ce/c0d48cfbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d0/80c4b38142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d1/30e660cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d2/c1a12a7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d3/8080fa6aec170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d4/409e9223451300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d6/8017045fe9170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d7/609a682eee170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d7/709288cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d7/8153b18142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d7/f08bcd3ff1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d8/5044b5fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/d9/e0b9f051f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/da/d157287042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/db/50b8b7b8f2170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/dc/a0e60263ed170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/dd/1051ad09f4170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/dd/30632757eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/df/00d4127042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/df/f1d85dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e/0045157042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e/601ccd15e9170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e1/9058a2fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e1/b0b8414e50170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e2/70894bcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e2/81c4b38142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e2/b05c2f7042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e3/d0c4ad8940170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e4/f0a1e474f3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e5/80160ae7f2170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e5/8053b18142170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e5/b06142cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/e6/409f7ed5f1170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/eb/10104dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ed/107a65cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ed/70dcc810eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ed/b0c3dee2ef170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ee/008974d2f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/ee/c0d52dc6f0170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f1/204ea1c8ed170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f2/b0821def441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f2/f0a351cd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f3/20ed067042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f3/705d7ccd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f3/80629db842170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f5/6089b0fbf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f5/d0024acd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f6/709ae8dd441300141cfe8886a7e46246
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f7/a02f62b3ea170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/f7/a0f9387042170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/fa/500dc5aaf3170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/fa/f0d85dcd36170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.history/fd/80610620eb170014192faf9b2f9c2d0a
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/Bank/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Bank/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Bank/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Break Reminder/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Break Reminder/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Break Reminder/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Break Reminder/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/.indexes/7/history.index
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/HTMLTableGenerator/.markers
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/HTMLTableGenerator/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/HTMLTableGenerator/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/HTMLTableGenerator/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/HTMLTableGenerator/org.eclipse.jdt.core/state.dat
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/HashMapExample/.indexes/properties.index
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/HashMapExample/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/HashMapExample/org.eclipse.egit.core/GitProjectData.properties
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/HashMapExample/org.eclipse.jdt.core/state.dat
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Lab8/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Lab8/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Lab8/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Lab8/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2 v2/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2 v2/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2 v2/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2 v2/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2/org.eclipse.egit.core/GitProjectData.properties
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/.indexes/e4/history.index
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/.indexes/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/org.eclipse.egit.core/GitProjectData.properties
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program5/org.eclipse.jdt.core/state.dat
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJFrameExample/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJFrameExample/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJFrameExample/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJFrameExample/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJFrameExample/org.eclipse.jdt.core/state.dat
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/.markers
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JComboJOptionPaneExample/org.eclipse.jdt.core/state.dat
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/org.eclipse.jdt.core/state.dat
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/PINApp/.indexes/7/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/PINApp/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/PINApp/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/PINApp/org.eclipse.egit.core/GitProjectData.properties
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/Reception/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Reception/.markers
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Reception/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Reception/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/Reception/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/.indexes/7/history.index
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/.markers
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/org.eclipse.egit.core/GitProjectData.properties
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/.indexes/7/history.index
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/.indexes/e4/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/.markers
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/org.eclipse.egit.core/GitProjectData.properties
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/WordCount/org.eclipse.jdt.core/state.dat
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+#	deleted:    .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs
+#	deleted:    .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs
+#	deleted:    .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/Dealer.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/HTMLTableGenerator.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/HTower.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/JComboJFrameExample.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/JComboJOptionPaneExampleApp.launch
+#	modified:   .metadata/.plugins/org.eclipse.debug.core/.launches/Main (1).launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/ModalDialogDemoFrame.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/PINApp1.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/ReceptionApp.launch
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/WordCountApp.launch
+#	modified:   .metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+#	modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1955339666.index.tmp
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/2617657682.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/346032148.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/363546387.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/3652925942.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/369776207.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/821979417.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/905084973.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml
+#	modified:   .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+#	modified:   .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+#	renamed:    .metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml -> .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+#	modified:   .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/7/31/refactorings.history
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/7/31/refactorings.index
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IT206Program5/2014/7/31/refactorings.history
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IT206Program5/2014/7/31/refactorings.index
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Reception/2014/7/31/refactorings.history
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Reception/2014/7/31/refactorings.index
+#	deleted:    .metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.0.20140606-0033.xml
+#	modified:   .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+#	deleted:    .metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bbs-imac_0/FP.local.files_0/node.properties
+#	deleted:    .metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bbs-imac_0/H.local_16/node.properties
+#	deleted:    .metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bbs-imac_0/node.properties
+#	modified:   .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+#	deleted:    .metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml
+#	modified:   .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+#	deleted:    .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+#	modified:   .metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+#	modified:   .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml
+#	deleted:    .metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+#	deleted:    Bank/bin/.project
+#	modified:   Break Reminder/bin/Main$1.class
+#	modified:   Break Reminder/bin/Main.class
+#	modified:   Break Reminder/bin/ReminderWindow$1.class
+#	modified:   Break Reminder/bin/ReminderWindow.class
+#	modified:   Break Reminder/src/Main.java
+#	modified:   Break Reminder/src/ReminderWindow.java
+#	modified:   CarAccelerator v2/bin/AccelerateListener.class
+#	modified:   CarAccelerator v2/bin/DecelerateListener.class
+#	modified:   CarAccelerator v2/bin/Main.class
+#	modified:   CarAccelerator v2/src/AccelerateListener.java
+#	modified:   CarAccelerator v2/src/DecelerateListener.java
+#	modified:   Courses_And_TAs/.classpath
+#	modified:   Courses_And_TAs/bin/App.class
+#	modified:   Courses_And_TAs/bin/Course.class
+#	modified:   Courses_And_TAs/bin/Main.class
+#	modified:   Courses_And_TAs/bin/TA.class
+#	modified:   IT206BrunoProgram4/bin/RugbyTeam.class
+#	modified:   IT206BrunoProgram4/bin/Tourney.class
+#	modified:   IT206BrunoProgram4/src/RugbyTeam.java
+#	modified:   IT206Lab8/bin/Car.class
+#	modified:   IT206Lab8/bin/CarWithStereo.class
+#	modified:   IT206Lab8/bin/Dealer.class
+#	modified:   IT206Program2 v2/bin/Employee.class
+#	modified:   IT206Program2 v2/bin/Payroll.class
+#	modified:   IT206Program2/bin/Employee.class
+#	modified:   IT206Program2/bin/Payroll.class
+#	modified:   IT206Program5/.classpath
+#	modified:   PINApp/bin/PINApp1.class
+#	modified:   PINApp/bin/PINFrame1$PINListener.class
+#	modified:   PINApp/bin/PINFrame1.class
+#	modified:   SuperVendingMachine v4/bin/.gitignore
+#	modified:   SuperVendingMachine v4/bin/Administrator$Button1Listener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator$Button2Listener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator$Button3Listener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator$Button4Listener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator$Button5Listener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator$LoginButtonListener.class
+#	modified:   SuperVendingMachine v4/bin/Administrator.class
+#	modified:   SuperVendingMachine v4/bin/Coke.class
+#	modified:   SuperVendingMachine v4/bin/Item.class
+#	modified:   SuperVendingMachine v4/bin/MasonMoney.class
+#	modified:   SuperVendingMachine v4/bin/Pepsi.class
+#	modified:   SuperVendingMachine v4/bin/Transaction.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachine$AdminButtonListener.class
+#	deleted:    SuperVendingMachine v4/bin/VendingMachine$BuyButtonListener$1.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachine$BuyButtonListener.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachine$DepositButtonListener.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachine$ViewItemsListener.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachine.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachineApp$Button1Listener.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachineApp$Button2Listener.class
+#	modified:   SuperVendingMachine v4/bin/VendingMachineApp.class
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.metadata/.plugins/org.eclipse.core.resources/.history/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Bank/.indexes/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Bank/.markers
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Bank/org.eclipse.egit.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Bank/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Break Reminder/.indexes/e4/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/.indexes/e4/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/CarAccelerator v2/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/.markers
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Courses_And_TAs/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/.indexes/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/org.eclipse.egit.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram2/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206BrunoProgram4/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206Lab8/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2 v2/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/IT206Program2/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/JFrameOnTopDemo/.markers
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/PINApp/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/Reception/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.projects/SuperVendingMachine v4/org.eclipse.jdt.core/
+#	.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+#	.metadata/.plugins/org.eclipse.debug.core/.launches/BankApp.launch
+#	.metadata/.plugins/org.eclipse.debug.core/.launches/Tourney.launch
+#	.metadata/.plugins/org.eclipse.jdt.core/1658264207.index
+#	.metadata/.plugins/org.eclipse.jdt.core/2778054775.index
+#	.metadata/.plugins/org.eclipse.rse.core/profiles/
+#	IT206BrunoProgram4/bin/.gitignore
+#	IT206Program5/Cat.java
+#	IT206Program5/Dog.java
+#	IT206Program5/Kennel.java
+#	IT206Program5/Main.java
+#	IT206Program5/Owner.java
+#	IT206Program5/Pet.java
+#	IT206Program5/PetHotel.java
+#	IT206Program5/src/.gitignore
+#	IT206Program6/
+#	JFrame/
+#	Take-HomeAssignment2/
+

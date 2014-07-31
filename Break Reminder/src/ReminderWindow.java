@@ -37,7 +37,6 @@ public class ReminderWindow extends JFrame {
 		
 		stopButton.addActionListener(new ActionListener() {
 
-			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0); // terminate the application
 			}
